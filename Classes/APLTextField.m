@@ -125,10 +125,10 @@
 }
 
 - (void)setRightImage:(NSString*)name {
-  self.leftView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:name]];
-  self.leftView.frame = CGRectMake(0., 0., 30., 30.);
-  self.leftView.contentMode = UIViewContentModeCenter;
-  self.leftViewMode = UITextFieldViewModeAlways;
+  self.rightView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:name]];
+  self.rightView.frame = CGRectMake(0., 0., 30., 30.);
+  self.rightView.contentMode = UIViewContentModeCenter;
+  self.rightViewMode = UITextFieldViewModeAlways;
 }
 
 - (BOOL)hasRightView {

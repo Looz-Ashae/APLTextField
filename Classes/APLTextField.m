@@ -124,6 +124,17 @@
     return [self.text length] ? [self.datePicker date] : nil;
 }
 
+- (void)setRightImage:(NSString*)name {
+  self.leftView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:name]];
+  self.leftView.frame = CGRectMake(0., 0., 30., 30.);
+  self.leftView.contentMode = UIViewContentModeCenter;
+  self.leftViewMode = UITextFieldViewModeAlways;
+}
+
+- (BOOL)hasRightView {
+  return self.rightView && (self.rightView != UITextFieldViewModeNever);
+}
+
 - (void)setLeftImage:(NSString*)name {
     self.leftView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:name]];
     self.leftView.frame = CGRectMake(0., 0., 30., 30.);

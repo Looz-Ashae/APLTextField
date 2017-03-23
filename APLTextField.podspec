@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "APLTextField"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "Advanced UITextField subclass with the possibility to be connected to a picker"
 
   s.description  = <<-DESC
@@ -21,7 +21,8 @@ Pod::Spec.new do |s|
   
   s.platform     = :ios
 
-  s.source       = { :git => "https://github.com/apploft/APLTextField.git", :tag => s.version.to_s }
+  # s.source       = { :git => "https://github.com/apploft/APLTextField.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/Looz-Ashae/APLTextField", :tag => s.version.to_s }
 
   s.source_files  = 'Classes', 'Classes/**/*.{h,m}'
   s.exclude_files = 'Classes/Exclude'

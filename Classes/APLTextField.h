@@ -20,5 +20,6 @@
 - (void)setAndSelectDate:(NSDate*)date;
 - (NSDate*)getDate;
 - (void)setLeftImage:(NSString*)name;
+- (void)setRightImage:(NSString*)name;
 
 @end

@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "APLTextField"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "Advanced UITextField subclass with the possibility to be connected to a picker"
 
   s.description  = <<-DESC

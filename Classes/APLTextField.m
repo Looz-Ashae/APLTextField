@@ -12,8 +12,6 @@
 
 @property (nonatomic, assign) BOOL hasPicker;
 @property (nonatomic, strong) UIColor* normalTextColor;
-@property (nonatomic, retain) UIPickerView* pickerView;
-@property (nonatomic, retain) UIDatePicker* datePicker;
 
 @end
 

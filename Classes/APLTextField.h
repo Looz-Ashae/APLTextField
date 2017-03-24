@@ -15,6 +15,8 @@
 @property (nonatomic) NSInteger selectedPickerOption;
 @property (nonatomic, assign) BOOL hasDatePicker;
 @property (nonatomic, assign) NSUInteger maxCharacters;
+@property (nonatomic, retain) UIPickerView* pickerView;
+@property (nonatomic, retain) UIDatePicker* datePicker;
 
 - (void)setAndSelectText:(NSString*)text;
 - (void)setAndSelectDate:(NSDate*)date;

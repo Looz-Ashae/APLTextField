@@ -147,7 +147,7 @@
 #pragma mark - overridden methods
 
 - (CGRect)textRectForBounds:(CGRect)bounds {
-    CGFloat x = bounds.origin.x + 8;
+    CGFloat x = bounds.origin.x;
     CGFloat width = bounds.size.width - 16;
     if ([self hasLeftView]) {
         CGFloat leftViewWidth = self.leftView.frame.origin.x + self.leftView.frame.size.width;
